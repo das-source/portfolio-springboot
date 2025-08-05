@@ -1,0 +1,16 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+</head>
+<body>
+    <jsp:include page="navbar.jsp" />
+    <h2>My Projects</h2>
+    <ul>
+        <li>Student Management System (Spring Boot + Hibernate)</li>
+        <li>E-commerce Website (Spring Boot + Thymeleaf)</li>
+        <li>REST API for HR Management (Spring Boot + MySQL)</li>
+    </ul>
+</body>
+</html>

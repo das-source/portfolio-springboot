@@ -1,0 +1,12 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <jsp:include page="navbar.jsp" />
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is the home page built using Spring Boot + JSP + Java 8.</p>
+</body>
+</html>

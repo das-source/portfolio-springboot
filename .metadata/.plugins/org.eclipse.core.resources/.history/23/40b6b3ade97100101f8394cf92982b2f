@@ -1,0 +1,162 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio - Antony Arul Doss</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #222;
+        }
+
+        .project {
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+            background: #f9f9f9;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Antony Arul Doss A</h1>
+    <p>Java Developer | Spring Boot | Hibernate | Full Stack Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate Java Developer with 2.8 years of experience in designing and developing scalable, high-performance backend systems in
+			the Supply Chain and Logistics domain. Proficient in Java 8, Spring Boot, RESTful APIs, Hibernate, JPA, JSP, Servlets,
+			MVC, and Oracle. Hands-on experience with Microservices, API integration and debugging production issues.
+			Strong focus on clean code, performance optimization, reusability, and collaboration with cross-functional teams.
+        </p>
+    </section>
+
+    <section id="skills">
+		<h2>Skills</h2>
+		<ul>
+		    <li><strong>Languages:</strong> Java</li>
+		    <li><strong>Frameworks:</strong> Spring Boot, Spring MVC, Hibernate</li>
+		    <li><strong>Database:</strong> Oracle, MySQL</li>
+		    <li><strong>Frontend:</strong> JSP, HTML, JavaScript</li>
+			<li><strong>Tools:</strong> Eclipse, STS, Maven, Git</li>
+		</ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio to showcase my skills and projects using Spring Boot and JSP.</p>
+        </div>
+        <div class="project">
+            <h1>Shipping Module – Supply Chain Product Platform</h1>
+			<h3>Description</h3>
+            <p>Worked as part of the core backend team in developing the Shipping Module for a large-scale supply chain management
+			platform. The module was built to handle carrier operations, truck movements, and automated label generation for
+			efficient warehouse operations.</p>
+			
+			<h3>Roles & Responsibilities</h3>
+			<ul>
+				 	<li>Developed and maintained key screens such as Carrier Creation, Open Truck, Update Truck Cost,Load Truck,
+					Unload Truck, Sign BOL, and Close Truck to manage outbound shipping workflows.</li>
+					<li>Implemented Packing and Unpacking functionality to support SKU-level and case-level handling of orders.</li>
+					<li>Designed and integrated dynamic label generation features including UCC labels, SKU labels, and Carrier API label
+					printing (FedEx, UPS, etc.).</li>
+					<li>Integrated RESTful APIs to fetch and print labels, ensuring accurate mapping and real-time updates.</li>
+					<li>Focused on backend logic and API integration using Java 8, Spring Boot, Hibernate, and Oracle.</li>
+					<li>Ensured modularity and reusability of code while optimizing for performance in high-volume warehouse environments.</li>
+					<li>Collaborated with frontend and QA teams to ensure seamless UI/UX and functional accuracy of each shipping step.</li>
+				
+			 </ul>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: 
+			<a href="mailto:antonyaruldoss333@gmail.com" target="_blank">antonyaruldoss333@gmail.com</a></p>
+        <p>LinkedIn: 
+			<a href="https://linkedin.com/in/antony-arul-doss-a-b5621b1a4" target="_blank">Antony Arul Doss</a></p>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2025 Antony Arul Doss. All rights reserved.
+</footer>
+
+</body>
+</html>
